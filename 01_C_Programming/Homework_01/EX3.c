@@ -1,5 +1,5 @@
 /*
- * EX2.c
+ * EX3.c
  *
  *  Created on: Dec 18, 2020
  *      Author: MahmoudH

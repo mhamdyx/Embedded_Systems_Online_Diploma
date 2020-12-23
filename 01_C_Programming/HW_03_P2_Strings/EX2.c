@@ -15,10 +15,14 @@ int main(void)
 	int len = 0;
 
 	printf("Enter a string: ");
+	
+	// Read the whole line including spaces
 	gets(input_string);
 
+	// Find the null character
 	while(input_string[len++]);
 
+	// Decrement to get the accurate length
 	printf("\nLength of string: %d\n", --len);
 
 	return 0;

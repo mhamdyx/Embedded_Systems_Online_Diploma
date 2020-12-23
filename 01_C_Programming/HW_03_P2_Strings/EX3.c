@@ -15,11 +15,15 @@ int main(void)
 	int len = 0, left, right;
 
 	printf("Enter the string: ");
+	
+	// Read the whole line including spaces
 	gets(input_string);
 
+	// Computing length
 	while(input_string[len++]);
 	len--;
 
+	// Reversing the string using swapping
 	for(left = 0, right = len - 1; left < right; left++, right--)
 	{
 

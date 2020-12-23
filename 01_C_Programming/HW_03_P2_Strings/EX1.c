@@ -16,6 +16,8 @@ int main(void)
 	unsigned int ch_freq = 0, sent_len, i;
 
 	printf("Enter a string: ");
+	
+	// Read the whole line including spaces
 	gets(sentence);
 
 	sent_len = strlen(sentence);
@@ -23,6 +25,7 @@ int main(void)
 	printf("\nEnter a character to find frequency: ");
 	scanf(" %c", &ch);
 
+	// Computing frequency of the entered character
 	for(i = 0; i < sent_len; i++)
 	{
 		if(sentence[i] == ch)

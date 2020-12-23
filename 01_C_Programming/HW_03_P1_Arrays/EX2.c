@@ -26,7 +26,7 @@ int main(void)
 	}
 
 	// Computing average given a valid size 
-	printf("Average = %.2f\n", (n != 0) ? (sum / n) : 0);
+	printf("Average = %.2f\n", (n > 0) ? (sum / n) : 0);
 
 	return 0;
 }

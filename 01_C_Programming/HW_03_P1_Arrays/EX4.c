@@ -17,8 +17,6 @@ int main(void)
 	printf("Enter no of elements: ");
 	scanf("%d", &arr_len);
 
-	printf("\n");
-
 	// Reading the dataset
 	for(i = 0; i < arr_len; i++)
 	{

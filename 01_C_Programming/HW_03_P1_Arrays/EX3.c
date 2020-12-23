@@ -14,11 +14,13 @@ int main(void)
 	int rows, columns, row_index, col_index;
 	int matrix[MAX_LEN];
 
+	// Determining the dimensions of the matrix
 	printf("Enter rows and columns of matrix: ");
 	scanf("%d %d", &rows, &columns);
 
 	printf("\nEnter elements of matrix:\n");
 
+	// Emulating the behavior of 2D matrix using 1D array and access equation
 	for(row_index = 0; row_index < rows; row_index++)
 	{
 		for(col_index = 0; col_index < columns; col_index++)
@@ -30,6 +32,7 @@ int main(void)
 
 	printf("\nEntered Matrix:\n");
 
+	// Applying the access equation to emulate printing 2D matrix
 	for(row_index = 0; row_index < rows; row_index++)
 	{
 		for(col_index = 0; col_index < columns; col_index++)
@@ -41,6 +44,7 @@ int main(void)
 
 	printf("\nTranspose of Matrix:\n");
 
+	// Getting the transpose using the access equation and altering the for loop nesting
 	for(col_index = 0; col_index < columns; col_index++)
 	{
 		for(row_index = 0; row_index < rows; row_index++)

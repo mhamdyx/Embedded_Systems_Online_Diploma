@@ -13,9 +13,11 @@ int main(void)
 {
 	int arr[MAX_LEN], arr_len, element, i;
 
+	// Computing the size of the dataset
 	printf("Enter no of elements: ");
 	scanf("%d", &arr_len);
 
+	// Reading the dataset
 	for(i = 0; i < arr_len; i++)
 	{
 		scanf("%d", &arr[i]);
@@ -24,12 +26,14 @@ int main(void)
 	printf("\nEnter the element to be searched: ");
 	scanf("%d", &element);
 
+	// Searching for the element in question
 	for(i = 0; i < arr_len; i++)
 	{
 		if(arr[i] == element)
 			break;
 	}
 
+	// Checking if no breaks
 	if(i == arr_len)
 	{
 		printf("\nNumber is not found\n");

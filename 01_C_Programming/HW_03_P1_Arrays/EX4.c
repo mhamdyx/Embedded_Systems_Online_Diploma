@@ -13,11 +13,13 @@ int main(void)
 {
 	int arr[MAX_LEN], arr_len, extra_element, position, i;
 
+	// Computing the dataset size
 	printf("Enter no of elements: ");
 	scanf("%d", &arr_len);
 
 	printf("\n");
 
+	// Reading the dataset
 	for(i = 0; i < arr_len; i++)
 	{
 		scanf("%d", &arr[i]);
@@ -31,14 +33,17 @@ int main(void)
 
 	printf("\n");
 
+	// Shifting for the new element
 	for(i = arr_len; i >= position; i--)
 	{
 		arr[i] = arr[i - 1];
 	}
 
+	// Update the dataset data and size
 	arr[position - 1] = extra_element;
 	arr_len++;
 
+	// Print the dataset
 	for(i = 0; i < arr_len; i++)
 	{
 		printf("%d ", arr[i]);

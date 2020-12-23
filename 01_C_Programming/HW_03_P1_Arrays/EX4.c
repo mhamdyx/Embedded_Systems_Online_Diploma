@@ -20,8 +20,7 @@ int main(void)
 
 	for(i = 0; i < arr_len; i++)
 	{
-		arr[i] = i + 1;
-		printf("%d ", arr[i]);
+		scanf("%d", &arr[i]);
 	}
 
 	printf("\r\nEnter the element to be inserted: ");

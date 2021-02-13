@@ -17,10 +17,10 @@ int main(void)
 	scanf("%s", ch_str);
 
 	/* Seeking the end of the string */
-    while(*ptr++);
+	while(*ptr++);
     
-    /* Adjusting to the end of the string */
-    ptr--;
+	/* Adjusting to the end of the string */
+	ptr--;
 
 	printf("Reverse of the string is : ");
 	while(ptr != ch_str)

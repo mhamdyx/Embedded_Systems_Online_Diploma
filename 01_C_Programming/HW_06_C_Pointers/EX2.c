@@ -20,5 +20,7 @@ int main(void)
 		printf("%c ", *(p_arr + i));
 	}
 
+	printf("\n");
+
 	return 0;
 }

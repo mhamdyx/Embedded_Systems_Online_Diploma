@@ -28,5 +28,7 @@ int main(void)
 		printf("%c", *--ptr);
 	}
 
+	printf("\n");
+
 	return 0;
 }

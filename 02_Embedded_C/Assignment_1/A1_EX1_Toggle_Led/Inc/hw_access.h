@@ -14,7 +14,7 @@
 #define RO					const volatile
 
 #define IO_RW_REG8(x)		(*((RW uint8 *)(x)))
-#define IO_RO_REG8(x)		(*((RO uint88 *)(x)))
+#define IO_RO_REG8(x)		(*((RO uint8 *)(x)))
 
 #define IO_RW_REG16(x)		(*((RW uint16 *)(x)))
 #define IO_RO_REG16(x)		(*((RO uint16 *)(x)))

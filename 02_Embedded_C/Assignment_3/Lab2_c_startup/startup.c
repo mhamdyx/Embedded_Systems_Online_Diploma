@@ -7,9 +7,6 @@
 
 #include "Platform_Types.h"
 
-// Macros
-#define STACK_START_SP 0x20001000
-
 extern uint32 _E_text; // End of text section
 extern uint32 _S_data; // Start of data section
 extern uint32 _E_data; // End of data section

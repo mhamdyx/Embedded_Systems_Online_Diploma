@@ -73,7 +73,7 @@ Linker script and memory map
                 0x20001008                _stack_top = .
 LOAD startup.o
 LOAD main.o
-OUTPUT(learn-in-depth-cortex-m3-v1.elf elf32-littlearm)
+OUTPUT(learn-in-depth-cortex-m3-v2.elf elf32-littlearm)
 LOAD linker stubs
 
 .debug_info     0x00000000      0x33b

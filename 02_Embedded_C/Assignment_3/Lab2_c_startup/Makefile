@@ -15,7 +15,7 @@ ASM_OBJ = $(ASM:.s=.o)
 # Dependcies for each source (prerequisites)
 DEP = $(SRC:.c=.d)
 # Target
-TARGET = learn-in-depth-cortex-m3-v1
+TARGET = learn-in-depth-cortex-m3-v2
 ######################################
 
 # Architecture-specific

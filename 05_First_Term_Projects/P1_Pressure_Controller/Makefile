@@ -75,8 +75,10 @@ DEBUG_OPTIONS = -gdwarf-2 -g
 
 # Cppcheck variables
 SRC_DUMP = $(SRC:$(SRC_DIR)/%.c=$(SRC_DUMP_DIR)/%.c.dump)
-CPPCHECK_PARH := $(shell dirname -- "$(shell which cppcheck)")
-MISRA_PATH = "$(CPPCHECK_PARH)/addons/misra.py"
+CPPCHECK_PATH := $(shell dirname -- "$(shell which cppcheck)")
+MISRA_PATH = "$(CPPCHECK_PATH)/addons/misra.py"
+######################################
+
 # Make rules (targets)
 .PHONY: all
 all: $(TARGET).bin

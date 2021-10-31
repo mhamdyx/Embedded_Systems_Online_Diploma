@@ -1,0 +1,4 @@
+1 Tony Stark 3.5 1 2 3 4 5
+1 Wanda Maximoff 3 80 12 37 29 63
+3 Steve Rogers 3.5 45 21 55 18 46
+4 Sam Wilson 3.5 45 21 55 18 46

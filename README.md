@@ -16,9 +16,10 @@
 
 ---
 
-### Second Term ![image](https://progress-bar.dev/0/?title=In_Progress&color=ff00ff)
+### Second Term ![image](https://progress-bar.dev/15/?title=In_Progress&color=ff00ff)
 
-- [Unit 6: MCU Fundamentals](06_MCU_Fundamentals) ![image](https://progress-bar.dev/75/)
+- [Unit 6: MCU Fundamentals](06_MCU_Fundamentals) ![image](https://progress-bar.dev/100/)
+- Unit 7: MCU Essential Peripherals ![image](https://progress-bar.dev/1/)
 - More units are coming soon
 
 ---

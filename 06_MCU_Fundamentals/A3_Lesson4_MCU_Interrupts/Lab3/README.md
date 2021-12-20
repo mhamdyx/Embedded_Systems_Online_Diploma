@@ -48,6 +48,46 @@
 
 ---
 
-## Hardware Demo
+## Hardware Demo (or see this [Video](https://youtu.be/IU5tl3LX4pA))
 
-> Coming Soon
+[![image](https://drive.google.com/uc?export=view&id=14ZwnbxeludVUw0DAhuKVHPs1gq7MEAhk)](https://drive.google.com/file/d/14ZwnbxeludVUw0DAhuKVHPs1gq7MEAhk/view)
+
+### Components:
+
+1. 1 x Breadboard
+2. 1 x AVR ATmega32A
+3. 1 x Usbasp
+4. 3 x 330 ohm Resistors
+5. 4 x 10K ohm Resistors
+6. 3 x Push buttons (SPST)
+7. 3 x LEDs (1 Red + 1 Yellow + 1 Green)
+8. Jumper wires (Male-Male)
+
+---
+
+### Setup:
+
+[![image](https://drive.google.com/uc?export=view&id=1UwKx6AVVfE3TUMh0xRMfGPjtmthFji_A)](https://drive.google.com/file/d/1UwKx6AVVfE3TUMh0xRMfGPjtmthFji_A/view)
+
+---
+
+### Running (or see this [Video](https://youtu.be/IU5tl3LX4pA)):
+
+> Changing INT0 logic from low to high generates an interrupt as the button press corresponds to a logic change trigger.
+
+> Green LED corresponds to external interrupt 0
+
+[![image](https://drive.google.com/uc?export=view&id=1hKwuv2TLCt2s9ZHPCEAjcf90vw-4pEs8)](https://drive.google.com/file/d/1hKwuv2TLCt2s9ZHPCEAjcf90vw-4pEs8/view)
+
+> Changing INT1 logic from low to high generates an interrupt as the button press corresponds to a rising edge trigger (given a pull-down setup).
+
+> Yellow LED corresponds to external interrupt 1
+
+[![image](https://drive.google.com/uc?export=view&id=1Adfyg3MZKWwhYijeM7O7NC9B5K3N6c8J)](https://drive.google.com/file/d/1Adfyg3MZKWwhYijeM7O7NC9B5K3N6c8J/view)
+
+> Changing INT2 logic from high to low generates an interrupt as the button press corresponds to a falling edge trigger (given a pull-up setup).
+
+> Red LED corresponds to external interrupt 2
+
+[![image](https://drive.google.com/uc?export=view&id=11nspw0j9dnt-g1AWKuW_PvYjrgH2sdSK)](https://drive.google.com/file/d/11nspw0j9dnt-g1AWKuW_PvYjrgH2sdSK/view)
+

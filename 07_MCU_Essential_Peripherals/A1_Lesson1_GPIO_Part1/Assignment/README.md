@@ -4,14 +4,14 @@
 
 ## Contents
 
-* [Lab Objectives](#lab-objectives)
+* [Assignment Objectives](#assignment-objectives)
 * [Microchip Studio Simulation](#microchip-studio-simulation)
 * [Proteus Simulation and Demo](#proteus-simulation-and-demo)
 * [Hardware Demo](#hardware-demo-coming-soon)
 
 ---
 
-## Lab Objectives
+## Assignment Objectives
 
 ![image](https://drive.google.com/uc?export=view&id=1SqTDqM2PsUpgrr7qcbjLC8apH7_cO-lT)
 

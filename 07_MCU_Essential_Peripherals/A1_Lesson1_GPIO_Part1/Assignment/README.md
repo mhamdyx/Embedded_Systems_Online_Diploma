@@ -73,6 +73,44 @@
 
 ---
 
-## Hardware Demo (Coming Soon)
+## Hardware [Demo](https://youtu.be/B0Ug6yNxmMU)
+
+[![image](https://drive.google.com/uc?export=view&id=1CG3dP1vcvFcmxsU1Qo72p8gcAm1sWTmi)](https://drive.google.com/file/d/1CG3dP1vcvFcmxsU1Qo72p8gcAm1sWTmi/view)
+
+### Components:
+
+1. 1 x Breadboard
+2. 1 x AVR ATmega32A
+3. 1 x Usbasp
+4. 3 x 330 ohm Resistors
+5. 3 x LEDs (Green)
+6. 1 x Buzzer (5v)
+7. Jumper wires (Male-Male)
+
+---
+
+### Setup:
+
+[![image](https://drive.google.com/uc?export=view&id=117jNefMpDrV7PNTHPNmbG2VsU9sHEYAW)](https://drive.google.com/file/d/117jNefMpDrV7PNTHPNmbG2VsU9sHEYAW/view)
+
+---
+
+### [Running](https://youtu.be/B0Ug6yNxmMU):
+
+> Step 1: Close LED2 and Buzzer from a previous sequence then LED0 is ON.
+
+[![image](https://drive.google.com/uc?export=view&id=1imtCZGg5fzCWdh_JuVPY2F4YblMu9nQB)](https://drive.google.com/file/d/1imtCZGg5fzCWdh_JuVPY2F4YblMu9nQB/view)
+
+> Step 2: LED0 is OFF and LED1 is ON according to the execution sequence.
+
+[![image](https://drive.google.com/uc?export=view&id=1bKJGy9HfTmdCyjxoErkeFjKRB0KtgfIH)](https://drive.google.com/file/d/1bKJGy9HfTmdCyjxoErkeFjKRB0KtgfIH/view)
+
+> Step 3: LED1 is OFF and LED2 is ON according to the execution sequence.
+
+[![image](https://drive.google.com/uc?export=view&id=1_te33O7noHlpzuIEgtCa9zrfjn4Ub4Mh)](https://drive.google.com/file/d/1_te33O7noHlpzuIEgtCa9zrfjn4Ub4Mh/view)
+
+> Step 4: LED2 is still ON and then Buzzer is ON for a time delay.
+
+> To watch a demo, click [here](https://youtu.be/B0Ug6yNxmMU).
 
 ---

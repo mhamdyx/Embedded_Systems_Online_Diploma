@@ -20,11 +20,23 @@
 
 - [Unit 6: MCU Fundamentals](06_MCU_Fundamentals) ![image](https://progress-bar.xyz/100/?width=120)
 - [Unit 7: MCU Essential Peripherals](07_MCU_Essential_Peripherals) ![image](https://progress-bar.xyz/25/?width=120)
-- More units are coming soon
+- Unit 8: MCU Interfacing
+- Unit 9: MCU Timers/ADC
+- Unit 10: SW Engineering (Testing & Validation)
+- Unit 11: Apply on Embedded Systems Jobs
 
 ---
 
 ### Third Term ![image](https://progress-bar.xyz/0/?width=120&title=Not+started&color=ff0000)
+
+- Unit 12: Advanced Topics
+- Unit 13: Mastering CAN Protocol
+- Unit 14: Mastering ARM Cortex M3/4
+- Unit 15: Create your own RTOS
+- Unit 16: Design Patterns
+- Unit 17: Introduction to Embedded Linux/AUTOSAR
+- Unit 18: Soft Skills
+- Unit 19: Sensors & Actuators
 
 ---
 
@@ -34,7 +46,7 @@
 
 ---
 
-## My Progress Profile: [Click Here](https://www.learn-in-depth.com/online-diploma/mahmoudhamdy.eeng%40gmail.com)
+## ~~My Progress Profile: [Click Here](https://www.learn-in-depth.com/online-diploma/mahmoudhamdy.eeng%40gmail.com)~~
 
 ---
 

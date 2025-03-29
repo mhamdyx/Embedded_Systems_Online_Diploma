@@ -37,3 +37,34 @@
 ## My Progress Profile: [Click Here](https://www.learn-in-depth.com/online-diploma/mahmoudhamdy.eeng%40gmail.com)
 
 ---
+
+## Extra: Understand progress bars' color coding
+
+- Color format: RRGGBB, where RR, GG, and BB are two-digit hexadecimal values
+- When the there no progress, the title's color is solid red (ff0000). For example: ![image](https://progress-bar.xyz/0/?width=120&title=Not+started&color=ff0000)
+
+- When there is progress > 0% and < 30%, the color is custom pink (ff00ff). For example:
+  - ![image](https://progress-bar.xyz/15/?width=120&title=In+progress&color=ff00ff)
+
+  - ![image](https://progress-bar.xyz/29/?width=120&title=In+progress&color=ff00ff)
+
+- When there is progress >= 30% and < 70%, the color is custom purple (aa00ff). For example:
+  - ![image](https://progress-bar.xyz/30/?width=120&title=In+progress&color=aa00ff)
+
+  - ![image](https://progress-bar.xyz/69/?width=120&title=In+progress&color=aa00ff)
+
+  - ![image](https://progress-bar.xyz/1/?scale=3&title=Terms&width=240&suffix=/3&color=aa00ff)
+
+  - ![image](https://progress-bar.xyz/2/?scale=3&title=Terms&width=240&suffix=/3&color=aa00ff)
+
+- When there is progress >= 70% or done, the color is the default light blue (428bca). For example:
+
+  - ![image](https://progress-bar.xyz/75/?width=120&title=In+progress&color=428bca)
+  
+  - ![image](https://progress-bar.xyz/95/?width=120&title=In+progress)
+  
+  - ![image](https://progress-bar.xyz/100/?width=120&title=Done)
+
+- You don't have to add color=428bca. If you omit the color parameter, it will be added automatically [according to the source code](https://github.com/guibranco/progressbar/blob/1e478553452c7e6b05c461db1b9002cb48cb6026/app.py#L54C29-L54C35)
+
+---
